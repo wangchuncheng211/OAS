@@ -1,0 +1,24 @@
+<NewDataSet>
+  <Table1>
+    <fileID>34</fileID>
+    <fileSender>wcc</fileSender>
+    <fileAccepter>段瑞鑫</fileAccepter>
+    <fileTitle>测试七</fileTitle>
+    <fileTime>2015-06-22T20:43:04.665+08:00</fileTime>
+    <fileContent>  测试七测试七测试七测试七测试七测试七测试七测试七</fileContent>
+    <path>~/file/测试七.doc</path>
+    <examine>已接收</examine>
+    <fileName>测试七.doc</fileName>
+  </Table1>
+  <Table1>
+    <fileID>35</fileID>
+    <fileSender>wcc</fileSender>
+    <fileAccepter>段瑞鑫</fileAccepter>
+    <fileTitle>测试八</fileTitle>
+    <fileTime>2015-06-22T20:43:37.382+08:00</fileTime>
+    <fileContent>  测试八测试八测试八测试八测试八测试八测试八测试八</fileContent>
+    <path>~/file/测试八.doc</path>
+    <examine>已接收</examine>
+    <fileName>测试八.doc</fileName>
+  </Table1>
+</NewDataSet>

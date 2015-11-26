@@ -1,0 +1,68 @@
+<NewDataSet>
+  <Table1>
+    <fileID>33</fileID>
+    <fileSender>wcc</fileSender>
+    <fileAccepter>王儒</fileAccepter>
+    <fileTitle>测试六</fileTitle>
+    <fileTime>2015-06-22T20:42:36.658+08:00</fileTime>
+    <fileContent>  测试六测试六测试六测试六测试六测试六测试六测试六测试六</fileContent>
+    <path>~/file/测试六.doc</path>
+    <examine>未接收</examine>
+    <fileName>测试六.doc</fileName>
+  </Table1>
+  <Table1>
+    <fileID>32</fileID>
+    <fileSender>wcc</fileSender>
+    <fileAccepter>王儒</fileAccepter>
+    <fileTitle>测试五</fileTitle>
+    <fileTime>2015-06-22T20:42:08.676+08:00</fileTime>
+    <fileContent>  测试五测试五测试五测试五测试五测试五测试五测试五测试五</fileContent>
+    <path>~/file/测试五.doc</path>
+    <examine>未接收</examine>
+    <fileName>测试五.doc</fileName>
+  </Table1>
+  <Table1>
+    <fileID>31</fileID>
+    <fileSender>wcc</fileSender>
+    <fileAccepter>王春城</fileAccepter>
+    <fileTitle>测试四</fileTitle>
+    <fileTime>2015-06-22T20:41:40.659+08:00</fileTime>
+    <fileContent>  测试四测试四测试四测试四测试四测试四测试四测试四</fileContent>
+    <path>~/file/测试三.doc</path>
+    <examine>未接收</examine>
+    <fileName>测试三.doc</fileName>
+  </Table1>
+  <Table1>
+    <fileID>30</fileID>
+    <fileSender>wcc</fileSender>
+    <fileAccepter>王春城</fileAccepter>
+    <fileTitle>测试三</fileTitle>
+    <fileTime>2015-06-22T20:41:24.236+08:00</fileTime>
+    <fileContent>  测试三测试三测试三测试三测试三测试三测试三</fileContent>
+    <path>~/file/测试三.doc</path>
+    <examine>未接收</examine>
+    <fileName>测试三.doc</fileName>
+  </Table1>
+  <Table1>
+    <fileID>29</fileID>
+    <fileSender>wcc</fileSender>
+    <fileAccepter>王春城</fileAccepter>
+    <fileTitle>测试二</fileTitle>
+    <fileTime>2015-06-22T20:40:49.549+08:00</fileTime>
+    <fileContent>  测试二测试二测试二测试二测试二测试二测试二测试二测试二测试二测试二</fileContent>
+    <path>~/file/测试二.doc</path>
+    <examine>未接收</examine>
+    <fileName>测试二.doc</fileName>
+  </Table1>
+  <Table1>
+    <fileID>28</fileID>
+    <fileSender>wcc</fileSender>
+    <fileAccepter>王春城</fileAccepter>
+    <fileTitle>测试一</fileTitle>
+    <fileTime>2015-06-22T20:40:14.976+08:00</fileTime>
+    <fileContent>  测试一测试一测试一测试一测试一测试一测试一</fileContent>
+    <path>~/file/测试一.doc</path>
+    <examine>未接收</examine>
+    <fileName>测试一.doc</fileName>
+  </Table1>
+</NewDataSet>

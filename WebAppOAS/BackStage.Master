@@ -1,0 +1,79 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="BackStage.master.cs" Inherits="WebAppOAS.BackStage" %>
+
+<%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="cc1" %>
+
+<%@ Register src="UserControl/OnlineUser.ascx" tagname="OnlineUser" tagprefix="uc1" %>
+<%@ Register src="UserControl/AdminNav.ascx" tagname="AdminNav" tagprefix="uc2" %>
+<%@ Register src="UserControl/UserNav.ascx" tagname="UserNav" tagprefix="uc3" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<head runat="server">
+    <title>系统后台</title>
+    <link rel="stylesheet"  type="text/css"  href="CSS/style.css" />
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div id="container">
+        
+        <div id="left">    
+            <div class="onlineUser">
+                <uc1:OnlineUser ID="OnlineUser1" runat="server" />
+            </div>      
+            <div class="Nav">
+                <uc2:AdminNav ID="AdminNav1" runat="server" /><uc3:UserNav ID="UserNav1" runat="server" />
+            </div>            
+        </div>
+        <div id="right">
+            <cc1:ToolkitScriptManager ID="ToolkitScriptManager1" runat="server">
+            </cc1:ToolkitScriptManager>
+            <div class="demoarea">
+                <asp:UpdatePanel runat="server" ID="UpdatePanel1" >
+                    <ContentTemplate>
+                        <div style="width:210px;">
+                            <asp:Panel ID="timer" runat="server" Width="200px" BackColor="White" ForeColor="DarkBlue"
+                                BorderWidth="2" BorderStyle="solid" BorderColor="DarkBlue" style="z-index: 1;">
+                                    <div style=" vertical-align: middle; text-align: center;">
+                                        <span>Current Time:</span><br />
+                                        <span id="currentTime" runat="server" style="font-size:xx-large;font-weight:bold;line-height:30px;"/>
+                                    </div>
+                            </asp:Panel>
+                            <cc1:AlwaysVisibleControlExtender ID="avce" runat="server"
+                              TargetControlID="timer"
+                                VerticalSide="Top"
+                                VerticalOffset="10"
+                                HorizontalSide="Center"
+                                HorizontalOffset="10"
+                                ScrollEffectDuration=".1" Enabled="False" />
+                        </div>
+                    </ContentTemplate>
+                 </asp:UpdatePanel>
+                 
+                 <script type="text/javascript" language="javascript">
+                    function updateTime()
+                    {
+                        var label = document.getElementById('ctl00_currentTime');
+                        if (label) {
+                            var time = (new Date()).localeFormat("T");
+                            label.innerHTML = time;
+                        }
+                    }
+                    updateTime();
+                    window.setInterval(updateTime, 1000);
+                </script>
+            </div>
+        </div>
+        <div id="main">
+            <div id="content">
+                <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+                    
+                </asp:ContentPlaceHolder>
+            </div>           
+        </div>       
+    </div>
+    </form>
+</body>
+</html>

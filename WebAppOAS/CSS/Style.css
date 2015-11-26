@@ -1,0 +1,52 @@
+﻿ #container{
+            width:1002px;
+            height: 620px;
+            margin:0 auto;
+        }
+        #left
+        {
+        	width:232px;
+        	float:left;
+        	background:url(../images/back_01.jpg) no-repeat;
+            height: 620px;
+            border:0px;
+            margin-right:-2px;
+        }
+        #right
+        {
+        	width:770px;
+        	height: 107px;
+        	background:url(../images/back_02.jpg) no-repeat;
+        	float:left;
+        	border:0px;
+        	}
+        #main
+        {
+        	width:770px;
+        	height: 510px;
+        	background:url(../images/back_03.jpg) no-repeat;
+        	float:left;
+        	}
+        #content
+        {
+            width: 744px;
+            margin-left:6px;
+            height: 474px;
+        }
+        .onlineUser
+        {
+        	padding-top:75px;
+        	margin-left: 30px;
+        	}
+        .Nav
+        {
+        	margin-left:60px;
+        	}
+ 
+        	
+.demoarea 
+{
+	width:250px;
+	float:right;
+	margin:10px 20px;
+}
